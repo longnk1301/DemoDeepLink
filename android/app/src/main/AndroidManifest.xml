@@ -24,7 +24,8 @@
           <action android:name="android.intent.action.VIEW" />
           <category android:name="android.intent.category.DEFAULT" />
           <category android:name="android.intent.catergory.BROWSABLE" />
-          <data android:scheme="app" android:host="deeplink" /> <!-- app://deeplink -->
+          <data android:scheme="app" android:host="demodeeplinks" /> <!-- app://demodeeplinks -->
+          <data android:scheme="https" android:host="www.demodeeplinks.com" /> <!-- https://www.demodeeplinks.com -->
         </intent-filter>
       </activity>
     </application>
