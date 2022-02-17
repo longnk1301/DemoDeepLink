@@ -9,3 +9,8 @@ with https
 ```
 adb shell am start -W -a android.intent.action.VIEW -d https://www.demodeeplinks.com com.demodeeplinks
 ```
+
+2. We can using uri-scheme to open URL:
+  ```
+  npx uri-scheme open app://demodeeplinks [--android, --ios]
+  ```
