@@ -16,5 +16,6 @@ adb shell am start -W -a android.intent.action.VIEW -d https://www.demodeeplinks
   ```
 
 3. using dynamic link
-  - create project with link: https://demodeeplinks.page.link
+  - create project in console firebase
+  - I already create dynamic link and let's copy this link https://demodeeplinks.page.link/Tbeh to message app or anywhere in your device and click it to open app with package name is `com.demodeeplinks`
   
