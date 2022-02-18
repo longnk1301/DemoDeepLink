@@ -12,6 +12,12 @@ export const Home = ({navigation}: any) => {
         }}>
         <Text>Go to Profile</Text>
       </TouchableOpacity>
+      <TouchableOpacity
+        onPress={() => {
+          navigation.navigate('Linking', {message: 'Come from Home screen'});
+        }}>
+        <Text>Go to Linking screen</Text>
+      </TouchableOpacity>
     </View>
   );
 };
