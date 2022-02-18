@@ -14,3 +14,7 @@ adb shell am start -W -a android.intent.action.VIEW -d https://www.demodeeplinks
   ```
   npx uri-scheme open app://demodeeplinks [--android, --ios]
   ```
+
+3. using dynamic link
+  - create project with link: https://demodeeplinks.page.link
+  
